@@ -21,8 +21,8 @@ const RetroHeader = () => {
       {/* Marquee text */}
       <div className="overflow-hidden whitespace-nowrap bg-acid-yellow text-background py-2 mb-4">
         <div className="animate-marquee text-lg font-bold">
-          🌟 Welcome to the most RADICAL homepage on the World Wide Web! 🌟 
-          Last updated: Never! 🌟 This site is best viewed with your eyes! 🌟
+          🌟 Stefan Twerdochlib - Design Lead making digital experiences RADICAL! 🌟 
+          Currently @ Wolt! 🌟 This site is best viewed with design appreciation! 🌟
         </div>
       </div>
 

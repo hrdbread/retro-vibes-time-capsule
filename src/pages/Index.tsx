@@ -17,8 +17,8 @@ const Index = () => {
         <RetroSection id="home" title="WELCOME TO MY DIGITAL DOMAIN!" variant="glow">
           <div className="text-center space-y-4">
             <p className="text-lg retro-glow">
-              Greetings, fellow cyber-traveler! You've stumbled upon the most AWESOME corner 
-              of the information superhighway! 🚀✨
+              Hey! I'm Stefan Twerdochlib (twer•dock•lib) - Welcome to my totally rad corner 
+              of cyberspace! Currently Design Lead at Wolt, scaling design teams! 🚀✨
             </p>
             <div className="retro-blink text-hot-pink font-bold text-xl">
               ★ TOTALLY RAD SITE UNDER CONSTRUCTION! ★
@@ -39,37 +39,37 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-6 items-center">
             <div className="space-y-4">
               <p className="text-lg">
-                Hey there! I'm just a totally radical person cruising through cyberspace, 
-                creating the most EPIC websites this side of the digital divide! 🌐
+                Hey there! I'm Stefan Twerdochlib, a totally radical Design Lead cruising through 
+                cyberspace, creating the most EPIC user experiences this side of the digital divide! 🌐
               </p>
               <ul className="space-y-2 list-none">
                 <li className="flex items-center gap-2">
                   <span className="retro-rainbow">★</span> 
-                  Professional Internet Surfer since 1995
+                  Design Lead at Wolt since the future
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="retro-rainbow">★</span> 
-                  HTML Wizard & CSS Sorcerer
+                  Design System Wizard & UX Sorcerer
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="retro-rainbow">★</span> 
-                  Collector of animated GIFs
+                  Scaling design teams across the galaxy
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="retro-rainbow">★</span> 
-                  Netscape Navigator enthusiast
+                  Making healthcare more human at Werlabs
                 </li>
               </ul>
               <div className="retro-blink text-cyber-blue font-bold">
-                🎵 Currently listening to: Dial-up modem sounds 🎵
+                🎵 Currently working on: Revolutionizing design at Wolt 🎵
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-cyber p-4 border-4 border-electric-lime">
                 <div className="text-6xl mb-2">👤</div>
-                <div className="font-bold text-background">WEBMASTER SUPREME</div>
+                <div className="font-bold text-background">DESIGN LEADER SUPREME</div>
                 <div className="font-pixel text-xs text-background mt-2">
-                  "Making the web more radical, one blink tag at a time!"
+                  "Humanizing digital experiences, one pixel at a time!"
                 </div>
               </div>
             </div>
@@ -80,12 +80,12 @@ const Index = () => {
         <RetroSection id="links" title="TOTALLY COOL LINKS">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { name: "Google", url: "https://google.com", desc: "The ultimate search engine!" },
-              { name: "Wikipedia", url: "https://wikipedia.org", desc: "Knowledge at your fingertips!" },
-              { name: "Archive.org", url: "https://archive.org", desc: "Digital history preserved!" },
-              { name: "MDN Web Docs", url: "https://developer.mozilla.org", desc: "Web development resources!" },
-              { name: "CodePen", url: "https://codepen.io", desc: "Amazing code experiments!" },
-              { name: "GitHub", url: "https://github.com", desc: "Where code lives!" }
+              { name: "Patient Journal", url: "https://twerdochlib.com/patient-journal/", desc: "Humanizing Healthcare at Werlabs!" },
+              { name: "Fabric Design System", url: "https://twerdochlib.com/fabric-design-system/", desc: "Multi-brand system for H&M Group!" },
+              { name: "TELUS Product Pages", url: "https://twerdochlib.com/telus-product-pages/", desc: "My greatest failure & learning!" },
+              { name: "Shoppers Medical Cannabis", url: "https://twerdochlib.com/medical-cannabis-by-shoppers/", desc: "First of its kind marketplace!" },
+              { name: "Wolt", url: "https://wolt.com", desc: "Where I scale design teams!" },
+              { name: "My Portfolio", url: "https://twerdochlib.com", desc: "Check out all my work!" }
             ].map((link, index) => (
               <div key={index} className="bg-background border-2 border-neon-purple p-4 hover:animate-float">
                 <h3 className="font-bold text-cyber-blue retro-glow mb-2">🔗 {link.name}</h3>
@@ -145,9 +145,9 @@ const Index = () => {
             <div className="space-y-4">
               <h3 className="font-bold text-center retro-rainbow">Recent Visitors:</h3>
               {[
-                { name: "CyberSurfer95", date: "12/25/1999", message: "OMG this site is SO COOL! Love the blinking text! 🌟" },
-                { name: "WebMaster2000", date: "11/15/1999", message: "Totally radical homepage dude! The animations are SICK!" },
-                { name: "DialUpDreamer", date: "10/31/1999", message: "Best site on the web! My Netscape almost crashed from all the awesomeness! 💾" }
+                { name: "DesignGeek99", date: "12/25/2024", message: "Stefan's design work at Wolt is AMAZING! The patient journal project blew my mind! 🌟" },
+                { name: "UXWizard2000", date: "11/15/2024", message: "That Fabric Design System case study is pure gold! Multi-brand systems FTW!" },
+                { name: "PixelPusher95", date: "10/31/2024", message: "Love how Stefan humanizes healthcare UX. That Werlabs work is revolutionary! 💾" }
               ].map((entry, index) => (
                 <div key={index} className="bg-gradient-cyber p-4 border-2 border-hot-pink">
                   <div className="flex justify-between items-start mb-2">
@@ -165,29 +165,29 @@ const Index = () => {
         <RetroSection id="contact" title="GET IN TOUCH">
           <div className="text-center space-y-6">
             <p className="text-lg">
-              Want to chat about the latest web technologies? Drop me a line! 📧
+              Want to chat about design systems, user experience, or scaling design teams? Drop me a line! 📧
             </p>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-gradient-neon p-6 border-4 border-cyber-blue">
                 <h3 className="font-bold text-background mb-4">📧 EMAIL ME!</h3>
-                <RetroButton 
-                  variant="glow" 
-                  href="mailto:webmaster@awesome-site.com"
-                  className="w-full"
-                >
-                  webmaster@awesome-site.com
-                </RetroButton>
+                  <RetroButton 
+                    variant="glow" 
+                    href="mailto:stefan@twerdochlib.com"
+                    className="w-full"
+                  >
+                    stefan@twerdochlib.com
+                  </RetroButton>
               </div>
               
               <div className="bg-background border-4 border-hot-pink p-6">
                 <h3 className="font-bold text-hot-pink mb-4">🌐 FIND ME ON THE WEB!</h3>
                 <div className="space-y-2">
-                  <RetroButton variant="cyber" href="#" className="w-full mb-2">
-                    My GeoCities Page
+                  <RetroButton variant="cyber" href="https://www.linkedin.com/in/stefantwerdochlib/" className="w-full mb-2">
+                    My LinkedIn Profile
                   </RetroButton>
-                  <RetroButton variant="neon" href="#" className="w-full">
-                    IRC: #awesome-web
+                  <RetroButton variant="neon" href="https://twerdochlib.com" className="w-full">
+                    Portfolio Site
                   </RetroButton>
                 </div>
               </div>
@@ -203,16 +203,16 @@ const Index = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-background p-4 border-2 border-acid-yellow">
-                <h4 className="font-bold text-foreground">Photo Gallery</h4>
-                <p className="text-sm">My vacation pics!</p>
+                <h4 className="font-bold text-foreground">Design Talks</h4>
+                <p className="text-sm">Speaking at conferences!</p>
               </div>
               <div className="bg-background p-4 border-2 border-acid-yellow">
-                <h4 className="font-bold text-foreground">Music Player</h4>
-                <p className="text-sm">MIDI files galore!</p>
+                <h4 className="font-bold text-foreground">Design Mentorship</h4>
+                <p className="text-sm">Teaching the next gen!</p>
               </div>
               <div className="bg-background p-4 border-2 border-acid-yellow">
-                <h4 className="font-bold text-foreground">Web Ring</h4>
-                <p className="text-sm">Connect with friends!</p>
+                <h4 className="font-bold text-foreground">Design Community</h4>
+                <p className="text-sm">Building design networks!</p>
               </div>
             </div>
           </div>
@@ -239,9 +239,9 @@ const Index = () => {
           </div>
           
           <div className="retro-marquee text-hot-pink font-bold">
-            © 1999 - FOREVER • This site is optimized for 800x600 resolution • 
-            Best viewed with sound ON • Geocities neighborhood: /Area51/Quadrant/1337 • 
-            Last updated: When I feel like it!
+            © 2024 Stefan Twerdochlib • Design Lead @ Wolt • This site is optimized for 800x600 resolution • 
+            Best viewed with Figma open • Portfolio: twerdochlib.com • 
+            Last updated: When design inspiration strikes!
           </div>
           
           <div className="font-pixel text-xs retro-rainbow">
